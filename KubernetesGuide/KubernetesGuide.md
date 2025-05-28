@@ -40,6 +40,8 @@ spec:
         - containerPort: 80
 ```
 
+Remember to include your imagePullPolicy: Never if you use a local docker image
+
 Apply it:
 ```
 kubectl apply -f deployment.yaml
